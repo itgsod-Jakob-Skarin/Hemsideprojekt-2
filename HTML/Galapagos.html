@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../Style/CSS/Style.css">
+    <title>Galapagos</title>
+
+    <script>
+
+        function goto(link){
+            window.location =(link)
+
+        }
+
+        function alerto(text){
+            alert(text);
+        }
+
+
+        function acceptalert(text){
+            alert(text);
+        }
+
+    </script>
+
+
+</head>
+<body>
+<div id="Header" onclick="goto('home.html')">
+    <h1> Galapagos Skola </h1>
+    <a href="Information.html">Information!</a>
+    <a href="skolmat.html">Schema!</a>
+    <a href="schema.html" onclick="acceptalert('Du kommer att lämna skolans hemsida')">Skolmat</a>
+</div>
+
+
+
+<div id="galapagosbild">
+
+    <img src="../imgs/galapagosbild.jpg" onclick="alerto('WARNING:\nDet här är en karta över Galapagos!')">
+
+
+</div>
+
+</body>
+</html>

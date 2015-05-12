@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../Style/CSS/Style.css">
+    <title></title>
+</head>
+
+<script>
+
+    function goto(link){
+        window.location =(link)
+
+    }
+
+    function alerto(text){
+        alert(text);
+    }
+
+
+    function acceptalert(text){
+        alert(text);
+    }
+
+</script>
+
+
+<body>
+<div id="Header" onclick="goto('home.html')">
+    <h1> Galapagos Skola </h1>
+    <a href="Information.html">Information!</a>
+    <a href="schema.html" onclick="acceptalert('Du kommer att lämna skolans hemsida')">Schema!</a>
+    <a href="skolmat.html">Skolmat!</a>
+</div>
+
+<div id="main">
+    <div id="main_text">
+        <h1>
+            Dagens Skolmat!
+        </h1>
+        <h3>
+            Måndag: Spaghetti
+        </h3>
+        <h3>
+            Tisdag: Spaghetti
+        </h3>
+        <h3>
+            Onsdag: Spaghetti
+        </h3>
+        <h3>
+            Torsdag: Spaghetti
+        </h3>
+        <h3>
+            Fredag: Spaghetti
+        </h3>
+    </div>
+</div>
+</body>
+</html>
